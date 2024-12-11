@@ -1,0 +1,30 @@
+.tips-container {
+    background-color: #f0f0f0; /* Greyish background */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px 0;
+  }
+  
+  .tips-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .tips-container p {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .pinterest-embeds-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+ 
+
+    
