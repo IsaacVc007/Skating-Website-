@@ -1,0 +1,412 @@
+.middle-high-container {
+    display: flex;              /* Activa Flexbox para centrar el contenido */
+    justify-content: center;    /* Centra horizontalmente */
+    align-items: center;        /* Centra verticalmente */
+    height: 100vh;              /* Hace que el contenedor ocupe toda la pantalla */
+    transform: translateY(-15%); /* Mueve la imagen un poco hacia arriba */
+  }
+  
+  img {
+    width: 80%;  /* Ajusta el tamaño de la imagen para que sea grande */
+    height: auto; /* Mantiene las proporciones de la imagen */
+
+
+
+  }
+
+  .middle-high-container {
+    display: flex;              /* Activa Flexbox para el centrado */
+    justify-content: center;    /* Centra el contenido horizontalmente */
+    align-items: center;        /* Centra el contenido verticalmente */
+    height: 100vh;              /* Hace que el contenedor ocupe toda la altura de la página */
+    transform: translateY(-15%); /* Mueve el contenido hacia arriba un 15% */
+  }
+  
+  input {
+    width: 300px;    /* Ajusta el tamaño del input, puedes cambiar el valor */
+    padding: 10px;    /* Da algo de espacio dentro del input */
+    font-size: 16px;  /* Ajusta el tamaño de la fuente */
+    border: 2px solid #ccc;  /* Agrega un borde sencillo */
+    border-radius: 5px;      /* Redondea las esquinas del input */
+  }
+
+  .middle-high-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;  /* Deja espacio para el footer */
+    transform: translateY(-15%);
+  }
+  
+  input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  footer {
+    display: flex;               /* Activa Flexbox para centrar */
+    justify-content: center;     /* Centra el texto horizontalmente */
+    align-items: center;         /* Asegura que el texto esté alineado */
+    height: 10vh;                /* Define el alto del footer */
+    background-color: #32CD32;   /* Verde lima (lime green) */
+    color: #000;                 /* Texto en negro para buen contraste */
+    font-size: 14px;             /* Tamaño del texto */
+    font-weight: bold;           /* Hace el texto más grueso */
+    border-top: 2px solid #000;  /* Línea negra para resaltar */
+    padding: 10px;               /* Espaciado interno para el texto */
+    text-transform: uppercase;   /* Hace que el texto esté en mayúsculas */
+    font-family: Arial, sans-serif; /* Fuente moderna y sencilla */
+  }
+
+  /* Estilo para la barra de navegación */
+.topnav {
+    background-color: #32CD32; /* Verde lima */
+    overflow: hidden;         /* Evita que los elementos se desborden */
+    display: flex;            /* Flexbox para alinear los elementos */
+    justify-content: center;  /* Centra los enlaces horizontalmente */
+  }
+  
+  .topnav a {
+    color: #000;              /* Texto en negro */
+    text-align: center;       /* Centra el texto */
+    padding: 14px 20px;       /* Espaciado interno para los enlaces */
+    text-decoration: none;    /* Quita el subrayado de los enlaces */
+    font-size: 18px;          /* Tamaño de fuente */
+    font-weight: bold;        /* Texto más grueso */
+    font-family: Arial, sans-serif; /* Fuente moderna */
+    transition: background-color 0.3s ease; /* Transición suave al hover */
+  }
+  
+  .topnav a:hover {
+    background-color: #000;   /* Cambia a negro al pasar el ratón */
+    color: #fff;              /* Texto blanco al hover */
+  }
+  
+  .topnav a.active {
+    background-color: #000;   /* Fondo negro para el enlace activo */
+    color: #fff;              /* Texto blanco para el enlace activo */
+}
+
+/* Contenedor para las imágenes alineadas horizontalmente */
+.middle-high-container {
+    display: flex;              /* Flexbox para alinear las imágenes en una fila */
+    justify-content: space-around; /* Espacio uniforme entre las imágenes */
+    align-items: center;        /* Centra las imágenes verticalmente dentro del contenedor */
+    height: auto;               /* Ajusta la altura según el contenido */
+    margin-top: 10vh;            /* Deja un espacio desde la parte superior para las imágenes */
+}
+
+/* Estilo para las imágenes dentro del contenedor */
+.middle-high-container img {
+    width: 15%;                 /* Cada imagen ocupará el 15% del ancho */
+    height: auto;               /* Mantiene las proporciones de las imágenes */
+    border-radius: 10px;        /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.3s ease; /* Transición suave para el hover */
+}
+
+/* Efecto hover para las imágenes */
+.middle-high-container img:hover {
+    transform: scale(1.05);     /* Agranda ligeramente la imagen al pasar el ratón */
+}
+
+  /* Estilo para los enlaces de la barra de navegación */
+  .topnav a {
+    color: #000;               /* Texto en negro */
+    text-align: center;        /* Centra el texto */
+    padding: 14px 20px;        /* Espaciado interno para los enlaces */
+    text-decoration: none;     /* Elimina el subrayado de los enlaces */
+    font-size: 18px;           /* Tamaño de fuente */
+    font-weight: bold;         /* Fuente en negrita */
+    font-family: Arial, sans-serif;  /* Fuente moderna */
+    transition: all 0.3s ease; /* Transición suave para los efectos */
+  }
+  
+  /* Estilo para el hover de los enlaces */
+  .topnav a:hover {
+    background-color: #000;    /* Fondo negro al pasar el ratón */
+    color: #fff;               /* Texto blanco al hover */
+    transform: scale(1.1);      /* Efecto de agrandar ligeramente al pasar el ratón */
+  }
+  
+  /* Estilo para el enlace activo */
+  .topnav a.active {
+    background-color: #000;    /* Fondo negro para el enlace activo */
+    color: #fff;               /* Texto blanco para el enlace activo */
+  }
+  
+  /* Estilo para el footer */
+  footer {
+    display: flex;               /* Activa Flexbox para centrar */
+    justify-content: center;     /* Centra el texto horizontalmente */
+    align-items: center;         /* Asegura que el texto esté alineado */
+    height: 10vh;                /* Define el alto del footer */
+    background-color: #32CD32;   /* Verde lima (lime green) */
+    color: #000;                 /* Texto en negro para buen contraste */
+    font-size: 14px;             /* Tamaño del texto */
+    font-weight: bold;           /* Hace el texto más grueso */
+    border-top: 2px solid #000;  /* Línea negra para resaltar */
+    padding: 10px;               /* Espaciado interno para el texto */
+    text-transform: uppercase;   /* Hace que el texto esté en mayúsculas */
+    font-family: Arial, sans-serif; /* Fuente moderna y sencilla */
+  }
+
+
+
+  /* Estilo para la barra de navegación */
+.topnav {
+    background-color: #32CD32; /* Verde lima */
+    overflow: hidden;         /* Evita que los elementos se desborden */
+    display: flex;            /* Flexbox para alinear los elementos */
+    justify-content: center;  /* Centra los enlaces horizontalmente */
+  }
+  
+  .topnav a {
+    color: #000;              /* Texto en negro */
+    text-align: center;       /* Centra el texto */
+    padding: 14px 20px;       /* Espaciado interno para los enlaces */
+    text-decoration: none;    /* Quita el subrayado de los enlaces */
+    font-size: 18px;          /* Tamaño de fuente */
+    font-weight: bold;        /* Texto más grueso */
+    font-family: Arial, sans-serif; /* Fuente moderna */
+    transition: background-color 0.3s ease; /* Transición suave al hover */
+  }
+  
+  .topnav a:hover {
+    background-color: #000;   /* Cambia a negro al pasar el ratón */
+    color: #fff;              /* Texto blanco al hover */
+  }
+  
+  .topnav a.active {
+    background-color: #000;   /* Fondo negro para el enlace activo */
+    color: #fff;              /* Texto blanco para el enlace activo */
+  }
+  
+  /* Estilo para el dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dropdown-content ul li {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .dropdown-content ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .dropdown-content ul li a:hover {
+    color: #32CD32; /* Verde lima al pasar el ratón sobre los enlaces */
+  }
+
+
+
+
+  
+
+  /* Simplified styling for images and text layout */
+  .image-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping if there’s not enough space */
+    justify-content: space-between; /* Space items across the row */
+  }
+  
+  .image-item {
+    width: 23%; /* Set a width that fits all items in a row */
+    text-align: center; /* Center-align text under images */
+    margin-bottom: 20px; /* Add space between rows */
+  }
+  
+  .image-item img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .image-item h2 {
+    font-size: 1em; /* Set readable text size */
+    margin-top: 10px; /* Add space between the image and text */
+  }
+
+
+ /* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+/* Navigation Bar */
+.topnav {
+  background-color: #32CD32; /* Lime color for nav */
+  overflow: hidden;
+  padding: 10px;
+}
+
+.topnav a {
+  color: black;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+}
+
+.topnav a:hover {
+  background-color: #45a049;
+}
+
+.topnav .active {
+  background-color: #4CAF50;
+}
+
+.topnav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.topnav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+/* Centered Container for Image */
+.center-container img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Search Input Field */
+.middle-high-container input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Introduction Text */
+.introduction {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  padding: 20px;
+}
+
+/* Image Container Layout */
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Individual Image Items */
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.image-item p {
+  font-size: 14px;
+  color: #555;
+  text-align: justify;
+}
+
+/* Quote Container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container img {
+  max-width: 300px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.quote {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Footer */
+.footer {
+  background-color: #32CD32; /* Lime color for footer */
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .topnav ul {
+      display: block;
+      margin-top: 10px;
+  }
+
+  .topnav a {
+      display: block;
+      text-align: center;
+      padding: 10px;
+  }
+
+  .image-container {
+      grid-template-columns: 1fr;
+  }
+
+  .container {
+      flex-direction: column;
+      text-align: center;
+  }
+}
