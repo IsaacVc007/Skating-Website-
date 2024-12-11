@@ -1,0 +1,27 @@
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
